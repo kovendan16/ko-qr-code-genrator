@@ -1,0 +1,92 @@
+/* default styles */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f6f6f6;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+}
+
+.wrapper {
+  max-width: 700px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.sizeOptions {
+  width: 150px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='gray' d='M12 16L8 8h8l-4 8zm-4-4l4-8L4 8h4zm16-4h-2v2h2V8zm-2 6h2v2h-2v-2zm-4 2h2v2h-2v-2zm4-4h2v2h-2v-2zm-4-6v2h-2V4h2zm-6 14h2v2h-2v-2zm-4-4h2v2H4v-2zm6-2v-2h2v2h-2zm4-6v-2h2v2h-2zm2 8v2h-2v-2h2zm-2-6v-2h2v2h-2z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+}
+
+.color-inp {
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  margin: 0 5px;
+  border-radius: 50%;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  background-color: #66d9ff;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #5bc0de;
+}
+
+a {
+  color: #66d9ff;
+}
+
+a.hide {
+  display: none;
+}
