@@ -90,3 +90,7 @@ a {
 a.hide {
   display: none;
 }
+.qr-code {
+  display: flex;
+  justify-content: center;
+}
